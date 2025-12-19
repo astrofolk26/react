@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Home",
+    "link": "/",
+     "children": []
+  },
+  {
+    "id": 2,
+    "title": "About Us",
+    "link": "/about-us",
+     "children": ["Birth Chart", "Vastu", "Zodiac", "Pooja Services"]
+
+  },
+  {
+    "id": 3,
+    "title": "Horoscope",
+    "link": "/yearly-horoscope",
+     "children": []
+  },
+  {
+    "id": 4,
+    "title": "Child Astrology",
+    "link": "/child-astrology",
+     "children": []
+  },
+  {
+    "id": 5,
+    "title": "Teen Astrology",
+    "link": "/teen-astrology",
+      "children": []
+  },
+  {
+    "id": 6,
+    "title": "Education Forecast",
+    "link": "/education-astrology",
+      "children": []
+  },
+  {
+    "id": 7,
+    "title": "Astro Course",
+    "link": "/astrology-course",
+      "children": []
+  }
+ 
+]
