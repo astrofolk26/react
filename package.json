@@ -1,0 +1,41 @@
+{
+  "name": "sabka-loan-nextjs-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "dotenv -c -- next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "rimraf node_modules yarn.lock .next"
+  },
+  "dependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv-cli": "^8.0.0",
+    "emailjs-com": "^3.2.0",
+    "next": "^16.0.10",
+    "next-image-export-optimizer": "^1.19.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.10.1",
+    "swiper": "^11.2.10"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/cors": "^2.8.19",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "baseline-browser-mapping": "^2.9.8",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.4",
+    "tailwindcss": "^4",
+    "typescript": "5.9.3"
+  }
+}
